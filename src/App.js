@@ -8,7 +8,7 @@ import "./App.css";
 function App() {
   return (
     <div>
-      <div className="container text-3xl text-white bg-blue-700 w-full font-bold py-5 pl-20">
+      <div className="container text-3xl text-white bg-blue-700 w-full font-bold py-5 pl-20" data-cy="header-title" >
         TO DO LIST
       </div>
       <Router history={History}>
