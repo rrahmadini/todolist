@@ -44,4 +44,4 @@ export const ORDERS = [
   { label: "Belum Selesai", value: SORT_BELUM_SELESAI },
 ];
 
-export const EMAIL_ID = "rev4rmy@gmail.com";
+export const EMAIL_ID = "rrahmadini13@gmail.com";
