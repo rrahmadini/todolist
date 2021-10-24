@@ -8,8 +8,13 @@ import "./App.css";
 function App() {
   return (
     <div>
-      <div className="container text-3xl text-white bg-blue-700 w-full font-bold py-5 pl-20" data-cy="header-title" >
-        TO DO LIST
+      <div className="header">
+        <div
+          data-cy="header-background"
+          className="container text-3xl text-white bg-blue-700 w-full font-bold py-5 pl-20"
+        >
+          <h2 data-cy="header-title">TO DO LIST APP</h2>
+        </div>
       </div>
       <Router history={History}>
         <Wrapper>
