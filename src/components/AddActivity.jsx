@@ -10,6 +10,7 @@ const TambahButton = ({ onClick }) => (
     data-cy="activity-add-button"
     onClick={onClick}
     startIcon={<AddIcon />}
+    style={{ backgroundColor: "#16abf8" }}
   >
     Tambah
   </Button>
